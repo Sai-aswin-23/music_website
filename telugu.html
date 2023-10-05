@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"href="tamil.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+<body>
+    <div class="container">
+   <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="gu.jpg"></div>
+    <div class="swiper-slide"><img src="ma.jpg"></div>
+    <div class="swiper-slide"><img src="kal.jpg"></div>
+      <div class="swiper-slide"><img src="al.jpg"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay:3000,
+                disableOnInteraction:false,
+            },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+      clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});    
+    </script>
+    <div class="text">
+    <h2>TRENDING SONGS</h2>
+        <h4><pre>
+        MORE
+        </pre></h4>
+    </div>
+    <div class="container1">
+        <div class="card">
+            <a href="trend2.html">  <img src="nani.webp"></a>
+          <a href="trend2.html">    <img src="ok.jpeg"></a>
+          <a href="trend2.html">   <img src="oo.jpg"></a>
+           <a href="trend2.html">  <img src="vinna.jpg"></a>
+           <a href="trend2.html">  <img src="nee.jpg"></a>
+           <a href="trend2.html">  <img src="yenti.jpg"></a>
+        </div>
+     </div>   
+    <div class="text1">
+        <br>
+        <br>
+       <h2>ARTISTS</h2>
+    </div>
+    <div class="container2">
+         <img src="ani.jpg">
+         <img src="armaan%20malik.jpg">
+         <img src="pru.jfif">
+         <img src="dsp.webp">
+         <img src="sid.jpg">
+         <img src="jas.jfif">
+        </div>
+    <div class="text2">
+    <h4>ANIRUDH RAVICHANDER</h4>
+    <h4>ARMAAN MALIK</h4>
+ <h4>PRUDHVI CHARAN</h4>
+    <h4>DEVI SRI PRASAD</h4>
+    <h4><pre>   SID SRIRAM</pre></h4>
+    <h4>JASPREET JASZ</h4>
+    </div>
+    </body>
+</html>

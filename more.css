@@ -1,0 +1,42 @@
+*{background: #222;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.text{
+    background: #222;
+    color:white;
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.container1 .card img{
+    height: 255px;
+    width:243px;
+    cursor: pointer;
+    
+}
+.card{
+    grid-column-gap:15px;
+    display: flex;
+     background: #222;
+}
+.text2{
+    background: #222;
+    color:white;
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.container2 .card2 img{
+    height: 255px;
+    width:243px;
+    cursor: pointer;
+    
+}
+.card2{
+    grid-column-gap:15px;
+    display: flex;
+     background: #222;
+}

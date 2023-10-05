@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"href="tamil.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+<body>
+    <div class="container">
+   <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="pathu.jpg"></div>
+    <div class="swiper-slide"><img src="vathi.jpg"></div>
+    <div class="swiper-slide"><img src="jimmiki.jpg"></div>
+      <div class="swiper-slide"><img src="chilla.jpg"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay:3000,
+                disableOnInteraction:false,
+            },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+      clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',     
+  },
+});
+    </script>         
+    <div class="text">
+    <h2>TRENDING SONGS</h2>
+        <a href="more.html"><h4><pre>MORE</pre></h4></a>
+    </div>
+    <div class="container1">
+        <div class="card">
+            <a href="trending.html"><img src="gan.jpg"></a>
+            <a href="trending.html"><img src="jes.jpg"></a>
+           <a href="trending.html"> <img src="ran.jpg"></a>
+           <a href="trending.html"> <img src="sa.jpg"></a>
+          <a href="trending.html">  <img src="ven.jpg"></a>
+           <a href="trending.html"> <img src="vee.jpg"></a>
+        </div>
+     </div>
+    <div class="text1">
+        <br>
+        <br>
+       <h2>ARTISTS</h2>
+    </div>
+    <div class="container2">
+         <img src="ani.jpg">
+         <img src="u1.webp">
+         <img src="adhi.jpg">
+         <img src="gv.webp">
+         <img src="sid.jpg">
+         <img src="ar.webp">
+        </div>
+    <div class="text2">
+    <h4>ANIRUDH RAVICHANDER</h4>
+    <h4>YUVAN SHANKAR RAJA</h4>
+    <h4>HIP HOP TAMIZHA</h4>
+    <h4>G V PRAKASH</h4>
+    <h4>SID SRIRAM</h4>
+        <h4><pre>      A R RAHAM</pre></h4>
+    </div>
+        </body>
+</html>

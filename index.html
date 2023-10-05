@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <div class="logo">
+                    <img src="SOUND.png">
+                </div>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="#"><h3>HOME</h3></a></li>
+                        <li><a href="#"><h3>ABOUT</h3></a></li>
+                        <li><a href="#"><h3>CONTACT</h3></a></li>
+                        <li><a href="#"><h3>HELP</h3></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="information">
+                <div class="overlay"></div>
+                <img src="MUSIC.png" class="mobile">
+                <div id="circle">
+                     <div class="feature one">
+                         <a href="tamil.html"> <img src="tamil.png"></a>
+                         <div>
+                             <h4>TAMIL</h4>
+                         </div>
+                    </div>
+                     <div class="feature two">
+                         <a href="english.html"> <img src="en.png"></a>
+                         <div>
+                              <h4>ENGLISH</h4>
+                         </div>
+                    </div>
+                     <div class="feature three">
+                         <a href="hindi.html"> <img src="hindi.png"></a>
+                         <div>
+                          <h4>HINDI</h4>
+                         </div>
+                    </div>
+                     <div class="feature four">
+                         <a href="telugu.html"><img src="telugu.png"></a>
+                         <div>
+                             <h4>TELUGU</h4>
+                         </div>
+                    </div>
+                     </div>
+                    </div>
+                    <div class="controls">
+                        <img src="up.png"id="upbtn">
+                        <h1>LANGUAGES</h1>
+                        <img src="down.png"id="downbtn">
+                    </div>
+        </div>
+                <script>
+                var circle=document.getElementById("circle");
+                 var upbtn=document.getElementById("upbtn");
+                  var downbtn=document.getElementById("downbtn");
+                    var rotatevalue=circle.style.transform;
+                    var rotatesum;
+                    
+                    upbtn.onclick=function()
+                    {
+                        rotatesum=rotatevalue + "rotate(-90deg)";
+                        circle.style.transform = rotatesum;
+                        rotatevalue=rotatesum;
+                    }
+                        downbtn.onclick=function()
+                    {
+                        rotatesum=rotatevalue + "rotate(+90deg)";
+                        circle.style.transform = rotatesum;
+                        rotatevalue=rotatesum;
+                    }
+                </script>
+    </body>
+</html>                    

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"href="english.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+<body>
+    <div class="container">
+   <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="baby.jpg"></div>
+    <div class="swiper-slide"><img src="industry.jpg"></div>
+    <div class="swiper-slide"><img src="closer.jpg"></div>
+      <div class="swiper-slide"><img src="faded.jpg"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay:3000,
+                disableOnInteraction:false,
+            },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+      clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+    </script>
+    <div class="text">
+    <h2>TRENDING SONGS</h2>
+        <h4><pre>
+        MORE
+        </pre></h4>
+    </div>
+    <div class="container1">
+        <div class="card">
+            <a href="trend.html">  <img src="bones.jpg"></a>
+            <a href="trend.html">  <img src="enemy.jpg"></a>
+            <a href="trend.html"> <img src="heat.png"></a>
+             <a href="trend.html"><img src="love.png"></a>
+            <a href="trend.html"> <img src="yummy.jpg"></a>
+            <a href="trend.html"> <img src="change.jpg"></a>
+        </div>
+     </div> 
+     <div class="text1">
+        <br>
+        <br>
+       <h2>ARTISTS</h2>
+    </div>
+    <div class="container2">
+         <img src="just.jpg">
+         <img src="imm.jpg">
+         <img src="alan.jfif">
+         <img src="ed.webp">
+         <img src="mar.jpg">
+         <img src="chain.jpg">
+    </div>
+     <div class="text2">
+    <h4>JUSTINE BIEBER</h4>
+    <h4>IMAGINE DRAGON</h4>
+    <h4>ALAN WALKER</h4>
+    <h4>ED SHEERAN</h4>
+    <h4>MARSHMELLO</h4>
+    <h4>CHAINSMOKERS</h4>
+    </div>
+        </body>
+</html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"href="tamil.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+<body>
+    <div class="container">
+   <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="kes.jpg"></div>
+    <div class="swiper-slide"><img src="dun.jpg"></div>
+    <div class="swiper-slide"><img src="kh.jpg"></div>
+      <div class="swiper-slide"><img src="o.jpg"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay:3000,
+                disableOnInteraction:false,
+            },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+      clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+    </script>
+    <div class="text">
+    <h2>TRENDING SONGS</h2>
+        <h4><pre>
+        MORE
+        </pre></h4>
+    </div>
+    <div class="container1">
+        <div class="card">
+          <a href="trend1.html">    <img src="bek.jpg"></a>
+             <a href="trend1.html"> <img src="tum.jpg"></a>
+          <a href="trend1.html">   <img src="photo.jpg"></a>
+            <a href="trend1.html"> <img src="main.jpeg"></a>
+          <a href="trend1.html">   <img src="hook.jpg"></a>
+           <a href="trend1.html">  <img src="par.jpeg"></a>
+        </div>
+     </div> 
+    <div class="text1">
+        <br>
+        <br>
+       <h2>ARTISTS</h2>
+    </div>
+    <div class="container2">
+         <img src="sac.webp">
+         <img src="ari.webp">
+         <img src="atif%20aslam.webp">
+         <img src="pritam.jpg">
+         <img src="vishal%20dadlani.jpg">
+         <img src="Ankit%20Tiwari.jpg">
+        </div>
+    <div class="text2">
+    <h4>SACHET TANDON</h4>
+    <h4>ARIJIT SINGH</h4>
+ <h4><pre>        ATIF ASLAM</pre></h4>
+    <h4><pre>   PRITAM </pre></h4>
+    <h4>VISHAL DADLANI</h4>
+    <h4><pre> ANKIT TIWARI</pre></h4>
+    </div>
+    </body>
+</html>
